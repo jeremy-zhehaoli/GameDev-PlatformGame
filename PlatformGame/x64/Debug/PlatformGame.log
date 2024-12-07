@@ -1,0 +1,721 @@
+﻿  Installing vcpkg dependencies to D:\school\PlatformGame-L16_GUI_System_Solution\vcpkg_installed\x64-windows\
+  "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg\vcpkg.exe" install  --x-wait-for-lock --triplet "x64-windows" --vcpkg-root "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg\\" "--x-manifest-root=D:\school\PlatformGame-L16_GUI_System_Solution\\" "--x-install-root=D:\school\PlatformGame-L16_GUI_System_Solution\vcpkg_installed\x64-windows\\" 
+  Fetching registry information from https://github.com/microsoft/vcpkg (HEAD)...
+  Detecting compiler hash for triplet x64-windows...
+  A suitable version of powershell-core was not found (required v7.2.23).
+  Downloading https://github.com/PowerShell/PowerShell/releases/download/v7.2.23/PowerShell-7.2.23-win-x64.zip
+  Extracting powershell-core...
+  A suitable version of 7zip was not found (required v24.8.0).
+  Downloading https://github.com/ip7z/7zip/releases/download/24.08/7z2408-extra.7z
+  Extracting 7zip...
+  A suitable version of 7zr was not found (required v24.8.0).
+  Downloading https://github.com/ip7z/7zip/releases/download/24.08/7zr.exe
+  Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe
+  The following packages will be built and installed:
+      box2d:x64-windows@2.4.1#3 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\bef68937d8b4101d0df330a399a7fc043f7ec5e5
+    * brotli:x64-windows@1.1.0#1 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\4e5b5ae1ad26c80535c893cc0307121f0398549e
+    * bzip2[core,tool]:x64-windows@1.0.8#5 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\92e9a8bbf1abbd89872b48ad82fcf75852de1006
+    * freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.2 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\443f320ccf3139bc1818f0cc273944a56e960d6e
+    * libogg:x64-windows@1.3.5#1 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\98e27727c32704393494d32615c25b7b16eb3067
+    * libpng:x64-windows@1.6.43 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\8673cfd41804628ce52c499b8d23c5696104ec47
+    * libvorbis:x64-windows@1.3.7#2 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\c4c646a26ce3e6ad63992d3e4a55cb185159b23c
+      pugixml:x64-windows@1.14 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\6e38344aea6e7529afde3895e0885ed5cb0c0542
+      sdl2:x64-windows@2.30.0 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\4ab64007873e4e383360819f5227ad0747c649d1
+      sdl2-image:x64-windows@2.8.2 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\849a6f697c249f583d942ce2ce08ba3e4a9c195c
+      sdl2-mixer:x64-windows@2.8.0#1 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\b28cae64adf73bec946de9f037724763eb2ef1b2
+      sdl2-ttf:x64-windows@2.22.0 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\51a85aefcfb3e578904f1cbd72a9f49ff836b928
+    * vcpkg-cmake:x64-windows@2023-05-04 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\88a7058fc7fa73a9c4c99cfcae9d79e2abf87a5a
+    * vcpkg-cmake-config:x64-windows@2022-02-06#1 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\8d54cc4f487d51b655abec5f9c9c3f86ca83311f
+    * wavpack:x64-windows@5.6.0#1 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\d58b3734d0a42c7309216ade0432f7787fbd6ff5
+    * zlib:x64-windows@1.3.1 -- C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\3f05e04b9aededb96786a911a16193cdb711f0c9
+  Additional packages (*) will be modified to complete this operation.
+  Restored 0 package(s) from C:\Users\Jeremy\AppData\Local\vcpkg\archives in 580 us. Use --debug to see more details.
+  Installing 1/16 vcpkg-cmake-config:x64-windows@2022-02-06#1...
+  Building vcpkg-cmake-config:x64-windows@2022-02-06#1...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\8d54cc4f487d51b655abec5f9c9c3f86ca83311f: info: installing overlay port from here
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/vcpkg-port-config.cmake
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/vcpkg-cmake-config_x64-windows/share/vcpkg-cmake-config/copyright
+  -- Skipping post-build validation due to VCPKG_POLICY_EMPTY_PACKAGE
+  Stored binaries in 1 destinations in 17.3 ms.
+  Elapsed time to handle vcpkg-cmake-config:x64-windows: 50.3 ms
+  vcpkg-cmake-config:x64-windows package ABI: f79e3743595b29fb4447d289945df5f3698290208ef8aa2afb26f9d6c607a338
+  Installing 2/16 vcpkg-cmake:x64-windows@2023-05-04...
+  Building vcpkg-cmake:x64-windows@2023-05-04...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\88a7058fc7fa73a9c4c99cfcae9d79e2abf87a5a: info: installing overlay port from here
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_build.cmake
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg_cmake_install.cmake
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/vcpkg-cmake_x64-windows/share/vcpkg-cmake/vcpkg-port-config.cmake
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/vcpkg-cmake_x64-windows/share/vcpkg-cmake/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 18 ms.
+  Elapsed time to handle vcpkg-cmake:x64-windows: 51.9 ms
+  vcpkg-cmake:x64-windows package ABI: 9f11b81ace580faa37f8b7ea7616b07eefa4df01c09971c199e5248f8878a813
+  Installing 3/16 box2d:x64-windows@2.4.1#3...
+  Building box2d:x64-windows@2.4.1#3...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\bef68937d8b4101d0df330a399a7fc043f7ec5e5: info: installing overlay port from here
+  -- Note: box2d only supports static library linkage. Building static library.
+  -- Using cached erincatto-Box2D-9ebbbcd960ad424e03e5de6e66a40764c16f51bc.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/erincatto-Box2D-9ebbbcd960ad424e03e5de6e66a40764c16f51bc.tar.gz
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/box2d/src/64c16f51bc-7b27809cb5.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/box2d_x64-windows/share/box2d/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 314 ms.
+  Elapsed time to handle box2d:x64-windows: 2.6 s
+  box2d:x64-windows package ABI: e642324e66584f582b9ff2cadfcaf30869e10e165c6af1f909da577a694d5f13
+  Installing 4/16 pugixml:x64-windows@1.14...
+  Building pugixml:x64-windows@1.14...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\6e38344aea6e7529afde3895e0885ed5cb0c0542: info: installing overlay port from here
+  -- Using cached zeux-pugixml-v1.14.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/zeux-pugixml-v1.14.tar.gz
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/pugixml/src/v1.14-3215fd4dab.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/pugixml_x64-windows/lib/pkgconfig/pugixml.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Downloading https://mirror.msys2.org/msys/x86_64/msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst;https://repo.msys2.org/msys/x86_64/msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst;https://mirror.yandex.ru/mirrors/msys2/msys/x86_64/msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst;https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/x86_64/msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst;https://mirrors.ustc.edu.cn/msys2/msys/x86_64/msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst;https://mirror.selfnet.de/msys2/msys/x86_64/msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst -> msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst...
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/pugixml_x64-windows/debug/lib/pkgconfig/pugixml.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/pugixml_x64-windows/share/pugixml/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 172 ms.
+  Elapsed time to handle pugixml:x64-windows: 3.7 s
+  pugixml:x64-windows package ABI: db6ce732c3764d2bf17edc08e5f7a299ebed23f40ab1e4118f9939fbf224866b
+  Installing 5/16 sdl2:x64-windows@2.30.0...
+  Building sdl2:x64-windows@2.30.0...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\4ab64007873e4e383360819f5227ad0747c649d1: info: installing overlay port from here
+  -- Using cached libsdl-org-SDL-release-2.30.0.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/libsdl-org-SDL-release-2.30.0.tar.gz
+  -- Applying patch deps.patch
+  -- Applying patch alsa-dep-fix.patch
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/sdl2/src/ase-2.30.0-3ceee4a14f.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  CMake Warning at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake:318 (message):
+    The following variables are not used in CMakeLists.txt:
+  
+        CMAKE_DISABLE_FIND_PACKAGE_ALSA
+        CMAKE_REQUIRE_FIND_PACKAGE_ALSA
+  
+    Please recheck them and remove the unnecessary options from the
+    `vcpkg_cmake_configure` call.
+  
+    If these options should still be passed for whatever reason, please use the
+    `MAYBE_UNUSED_VARIABLES` argument.
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/4ab64007873e4e383360819f5227ad0747c649d1/portfile.cmake:43 (vcpkg_cmake_configure)
+    scripts/ports.cmake:192 (include)
+  
+  
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  CMake Warning at scripts/cmake/vcpkg_replace_string.cmake:17 (message):
+    vcpkg_replace_string made no changes.
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/4ab64007873e4e383360819f5227ad0747c649d1/portfile.cmake:95 (vcpkg_replace_string)
+    scripts/ports.cmake:192 (include)
+  
+  
+  CMake Warning at scripts/cmake/vcpkg_replace_string.cmake:17 (message):
+    vcpkg_replace_string made no changes.
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/4ab64007873e4e383360819f5227ad0747c649d1/portfile.cmake:95 (vcpkg_replace_string)
+    scripts/ports.cmake:192 (include)
+  
+  
+  CMake Warning at scripts/cmake/vcpkg_replace_string.cmake:17 (message):
+    vcpkg_replace_string made no changes.
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/4ab64007873e4e383360819f5227ad0747c649d1/portfile.cmake:95 (vcpkg_replace_string)
+    scripts/ports.cmake:192 (include)
+  
+  
+  CMake Warning at scripts/cmake/vcpkg_replace_string.cmake:17 (message):
+    vcpkg_replace_string made no changes.
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/4ab64007873e4e383360819f5227ad0747c649d1/portfile.cmake:95 (vcpkg_replace_string)
+    scripts/ports.cmake:192 (include)
+  
+  
+  CMake Warning at scripts/cmake/vcpkg_replace_string.cmake:17 (message):
+    vcpkg_replace_string made no changes.
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/4ab64007873e4e383360819f5227ad0747c649d1/portfile.cmake:95 (vcpkg_replace_string)
+    scripts/ports.cmake:192 (include)
+  
+  
+  CMake Warning at scripts/cmake/vcpkg_replace_string.cmake:17 (message):
+    vcpkg_replace_string made no changes.
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/4ab64007873e4e383360819f5227ad0747c649d1/portfile.cmake:95 (vcpkg_replace_string)
+    scripts/ports.cmake:192 (include)
+  
+  
+  CMake Warning at scripts/cmake/vcpkg_replace_string.cmake:17 (message):
+    vcpkg_replace_string made no changes.
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/4ab64007873e4e383360819f5227ad0747c649d1/portfile.cmake:95 (vcpkg_replace_string)
+    scripts/ports.cmake:192 (include)
+  
+  
+  CMake Warning at scripts/cmake/vcpkg_replace_string.cmake:17 (message):
+    vcpkg_replace_string made no changes.
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/4ab64007873e4e383360819f5227ad0747c649d1/portfile.cmake:109 (vcpkg_replace_string)
+    scripts/ports.cmake:192 (include)
+  
+  
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2_x64-windows/lib/pkgconfig/sdl2.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2_x64-windows/debug/lib/pkgconfig/sdl2.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2_x64-windows/share/sdl2/usage
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2_x64-windows/share/sdl2/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 684 ms.
+  Elapsed time to handle sdl2:x64-windows: 16 s
+  sdl2:x64-windows package ABI: 32cd8a4a6f4e0a72d471e2f909e8ef9dd244f5c146fdc8df72da3e7263b2cae8
+  Installing 6/16 zlib:x64-windows@1.3.1...
+  Building zlib:x64-windows@1.3.1...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\3f05e04b9aededb96786a911a16193cdb711f0c9: info: installing overlay port from here
+  -- Using cached madler-zlib-v1.3.1.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/madler-zlib-v1.3.1.tar.gz
+  -- Applying patch 0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch
+  -- Applying patch 0002-build-static-or-shared-not-both.patch
+  -- Applying patch 0003-android-and-mingw-fixes.patch
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/zlib/src/v1.3.1-2e5db616bf.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/zlib_x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/zlib_x64-windows/lib/pkgconfig/zlib.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/zlib_x64-windows/debug/lib/pkgconfig/zlib.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/zlib_x64-windows/share/zlib/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 89.2 ms.
+  Elapsed time to handle zlib:x64-windows: 2.5 s
+  zlib:x64-windows package ABI: 4cd99cdc01e93ff5bbc76a0b2bd96c031a3722c8542634ebf746486e3d79f5e1
+  Installing 7/16 libpng:x64-windows@1.6.43...
+  Building libpng:x64-windows@1.6.43...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\8673cfd41804628ce52c499b8d23c5696104ec47: info: installing overlay port from here
+  -- Using cached glennrp-libpng-v1.6.43.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/glennrp-libpng-v1.6.43.tar.gz
+  -- Applying patch cmake.patch
+  -- Applying patch fix-export-targets.patch
+  -- Applying patch libm.patch
+  -- Applying patch pkgconfig.patch
+  -- Applying patch fix-msa-support-for-mips.patch
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/libpng/src/v1.6.43-e957a32120.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libpng_x64-windows/share/png/vcpkg-cmake-wrapper.cmake
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libpng_x64-windows/lib/pkgconfig/libpng16.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libpng_x64-windows/debug/lib/pkgconfig/libpng16.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libpng_x64-windows/debug/lib/pkgconfig/libpng.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libpng_x64-windows/lib/pkgconfig/libpng.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libpng_x64-windows/share/libpng/usage
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libpng_x64-windows/share/libpng/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 126 ms.
+  Elapsed time to handle libpng:x64-windows: 2.8 s
+  libpng:x64-windows package ABI: 4dc09ca989068e1b89791c0bbef0623781e84ff20f18abd4c1a29c038eb22a73
+  Installing 8/16 sdl2-image:x64-windows@2.8.2...
+  Building sdl2-image:x64-windows@2.8.2...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\849a6f697c249f583d942ce2ce08ba3e4a9c195c: info: installing overlay port from here
+  -- Using cached libsdl-org-SDL_image-release-2.8.2.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/libsdl-org-SDL_image-release-2.8.2.tar.gz
+  -- Applying patch fix-findwebp.patch
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/sdl2-image/src/ease-2.8.2-89b2ee6bc2.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-image_x64-windows/lib/pkgconfig/SDL2_image.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-image_x64-windows/debug/lib/pkgconfig/SDL2_image.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-image_x64-windows/share/sdl2-image/usage
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-image_x64-windows/share/sdl2-image/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 106 ms.
+  Elapsed time to handle sdl2-image:x64-windows: 2.2 s
+  sdl2-image:x64-windows package ABI: f6217760b739032225587311756b73ee920dfc7e0e1e378b7f4374b8e7edb9bd
+  Installing 9/16 wavpack:x64-windows@5.6.0#1...
+  Building wavpack:x64-windows@5.6.0#1...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\d58b3734d0a42c7309216ade0432f7787fbd6ff5: info: installing overlay port from here
+  -- Using cached dbry-WavPack-5.6.0.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/dbry-WavPack-5.6.0.tar.gz
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/wavpack/src/5.6.0-d46202430d.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/wavpack_x64-windows/share/wavpack/copyright
+  CMake Warning at scripts/ports.cmake:168 (message):
+    Unexpected UNKNOWN_READ_ACCESS on variable MINGW in script mode.
+  
+    This variable name insufficiently expresses whether it refers to the target
+    system or to the host system.  Use a prefixed variable instead.
+  
+    - Variables providing information about the host:
+  
+      CMAKE_HOST_<SYSTEM>
+      VCPKG_HOST_IS_<SYSTEM>
+  
+    - Variables providing information about the target:
+  
+      VCPKG_TARGET_IS_<SYSTEM>
+      VCPKG_DETECTED_<VARIABLE> (using vcpkg_cmake_get_vars)
+  
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/d58b3734d0a42c7309216ade0432f7787fbd6ff5/portfile.cmake:2147483647 (z_vcpkg_warn_ambiguous_system_variables)
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/d58b3734d0a42c7309216ade0432f7787fbd6ff5/portfile.cmake:34 (if)
+    scripts/ports.cmake:192 (include)
+  
+  
+  CMake Warning at scripts/ports.cmake:168 (message):
+    Unexpected READ_ACCESS on variable WIN32 in script mode.
+  
+    This variable name insufficiently expresses whether it refers to the target
+    system or to the host system.  Use a prefixed variable instead.
+  
+    - Variables providing information about the host:
+  
+      CMAKE_HOST_<SYSTEM>
+      VCPKG_HOST_IS_<SYSTEM>
+  
+    - Variables providing information about the target:
+  
+      VCPKG_TARGET_IS_<SYSTEM>
+      VCPKG_DETECTED_<VARIABLE> (using vcpkg_cmake_get_vars)
+  
+  Call Stack (most recent call first):
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/d58b3734d0a42c7309216ade0432f7787fbd6ff5/portfile.cmake:2147483647 (z_vcpkg_warn_ambiguous_system_variables)
+    C:/Users/Jeremy/AppData/Local/vcpkg/registries/git-trees/d58b3734d0a42c7309216ade0432f7787fbd6ff5/portfile.cmake:34 (if)
+    scripts/ports.cmake:192 (include)
+  
+  
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/wavpack_x64-windows/lib/pkgconfig/wavpack.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/wavpack_x64-windows/debug/lib/pkgconfig/wavpack.pc
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 101 ms.
+  Elapsed time to handle wavpack:x64-windows: 7.9 s
+  wavpack:x64-windows package ABI: ffe8be3b707fa2a70876f451fca2c999192392bc4cdc7db1d19156cbf05e8305
+  Installing 10/16 libogg:x64-windows@1.3.5#1...
+  Building libogg:x64-windows@1.3.5#1...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\98e27727c32704393494d32615c25b7b16eb3067: info: installing overlay port from here
+  -- Using cached xiph-ogg-v1.3.5.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/xiph-ogg-v1.3.5.tar.gz
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/libogg/src/v1.3.5-1a4243fef9.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libogg_x64-windows/lib/pkgconfig/ogg.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libogg_x64-windows/debug/lib/pkgconfig/ogg.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libogg_x64-windows/share/libogg/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 78.8 ms.
+  Elapsed time to handle libogg:x64-windows: 5.4 s
+  libogg:x64-windows package ABI: e517092f6f8b8f5d97b3c88d0a2e82f438b1843993e4b38d3776618f696f8848
+  Installing 11/16 libvorbis:x64-windows@1.3.7#2...
+  Building libvorbis:x64-windows@1.3.7#2...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\c4c646a26ce3e6ad63992d3e4a55cb185159b23c: info: installing overlay port from here
+  -- Using cached xiph-vorbis-v1.3.7.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/xiph-vorbis-v1.3.7.tar.gz
+  -- Applying patch 0001-Dont-export-vorbisenc-functions.patch
+  -- Applying patch 0002-Fixup-pkgconfig-libs.patch
+  -- Applying patch 0003-def-mingw-compat.patch
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/libvorbis/src/v1.3.7-1480004d18.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libvorbis_x64-windows/lib/pkgconfig/vorbis.pc
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libvorbis_x64-windows/lib/pkgconfig/vorbisenc.pc
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libvorbis_x64-windows/lib/pkgconfig/vorbisfile.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libvorbis_x64-windows/debug/lib/pkgconfig/vorbis.pc
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libvorbis_x64-windows/debug/lib/pkgconfig/vorbisenc.pc
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libvorbis_x64-windows/debug/lib/pkgconfig/vorbisfile.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libvorbis_x64-windows/share/libvorbis/usage
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/libvorbis_x64-windows/share/libvorbis/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 140 ms.
+  Elapsed time to handle libvorbis:x64-windows: 2.9 s
+  libvorbis:x64-windows package ABI: 6ffa62154be5a58c4cb0f4c4cfb9a64c735c45723a03c32e6b2f069e0083e2c2
+  Installing 12/16 sdl2-mixer:x64-windows@2.8.0#1...
+  Building sdl2-mixer:x64-windows@2.8.0#1...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\b28cae64adf73bec946de9f037724763eb2ef1b2: info: installing overlay port from here
+  -- Using cached libsdl-org-SDL_mixer-release-2.8.0.tar.gz.
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/libsdl-org-SDL_mixer-release-2.8.0.tar.gz
+  -- Applying patch fix-pkg-prefix.patch
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/sdl2-mixer/src/ease-2.8.0-5d1a2b7a04.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-mixer_x64-windows/lib/pkgconfig/SDL2_mixer.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-mixer_x64-windows/debug/lib/pkgconfig/SDL2_mixer.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-mixer_x64-windows/share/sdl2-mixer/usage
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-mixer_x64-windows/share/sdl2-mixer/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 106 ms.
+  Elapsed time to handle sdl2-mixer:x64-windows: 2 s
+  sdl2-mixer:x64-windows package ABI: 9b87376994044bfdbea5ff37fd35af804b700403ecddee8fcd2ca12a36d6d4bf
+  Installing 13/16 bzip2[core,tool]:x64-windows@1.0.8#5...
+  Building bzip2[core,tool]:x64-windows@1.0.8#5...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\92e9a8bbf1abbd89872b48ad82fcf75852de1006: info: installing overlay port from here
+  -- Downloading https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz -> bzip2-1.0.8.tar.gz...
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/bzip2-1.0.8.tar.gz
+  -- Applying patch fix-import-export-macros.patch
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/bzip2/src/bzip2-1-336d4794a3.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/bzip2_x64-windows/lib/pkgconfig/bzip2.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/bzip2_x64-windows/debug/lib/pkgconfig/bzip2.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/bzip2_x64-windows/share/bzip2/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 82.3 ms.
+  Elapsed time to handle bzip2:x64-windows: 3.2 s
+  bzip2:x64-windows package ABI: a1172cdbff48e1efe8ae6581fa0eaf98a104783a5ff501117079b5daea918ebc
+  Installing 14/16 brotli:x64-windows@1.1.0#1...
+  Building brotli:x64-windows@1.1.0#1...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\4e5b5ae1ad26c80535c893cc0307121f0398549e: info: installing overlay port from here
+  -- Downloading https://github.com/google/brotli/archive/v1.1.0.tar.gz -> google-brotli-v1.1.0.tar.gz...
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/google-brotli-v1.1.0.tar.gz
+  -- Applying patch install.patch
+  -- Applying patch fix-arm-uwp.patch
+  -- Applying patch pkgconfig.patch
+  -- Applying patch emscripten.patch
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/brotli/src/v1.1.0-958bece74c.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/brotli_x64-windows/lib/pkgconfig/libbrotlicommon.pc
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/brotli_x64-windows/lib/pkgconfig/libbrotlidec.pc
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/brotli_x64-windows/lib/pkgconfig/libbrotlienc.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/brotli_x64-windows/debug/lib/pkgconfig/libbrotlicommon.pc
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/brotli_x64-windows/debug/lib/pkgconfig/libbrotlidec.pc
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/brotli_x64-windows/debug/lib/pkgconfig/libbrotlienc.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/brotli_x64-windows/share/brotli/usage
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/brotli_x64-windows/share/brotli/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 282 ms.
+  Elapsed time to handle brotli:x64-windows: 6.7 s
+  brotli:x64-windows package ABI: 877c1477b4e923c709841b3783579edc330a3e8d1d3253299ac4d551f5930dcc
+  Installing 15/16 freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.2...
+  Building freetype[brotli,bzip2,core,png,zlib]:x64-windows@2.13.2...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\443f320ccf3139bc1818f0cc273944a56e960d6e: info: installing overlay port from here
+  -- Downloading https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=cfhcable;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=pilotfiber;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=gigenet;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=versaweb;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=ayera;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=netactuate;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=phoenixnap;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=astuteinternet;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=freefr;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=netcologne;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=deac-riga;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=excellmedia;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=iweb;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=jaist;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=jztkft;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=managedway;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=nchc;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=netix;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=ufpr;https://sourceforge.net/projects/freetype/files/freetype2/2.13.2/freetype-2.13.2.tar.xz/download?use_mirror=tenet -> freetype-2.13.2.tar.xz...
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/freetype-2.13.2.tar.xz
+  -- Applying patch 0003-Fix-UWP.patch
+  -- Applying patch brotli-static.patch
+  -- Applying patch bzip2.patch
+  -- Applying patch fix-exports.patch
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/freetype/src/freetype-2-dec0fa0f13.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/freetype_x64-windows/lib/pkgconfig/freetype2.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/freetype_x64-windows/debug/lib/pkgconfig/freetype2.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/freetype_x64-windows/share/freetype/usage
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 266 ms.
+  Elapsed time to handle freetype:x64-windows: 7.6 s
+  freetype:x64-windows package ABI: 248010fc1e65d5a0ea17eb0a96b0b0a6f0abfe4522946654d1e45b865f57498e
+  Installing 16/16 sdl2-ttf:x64-windows@2.22.0...
+  Building sdl2-ttf:x64-windows@2.22.0...
+  C:\Users\Jeremy\AppData\Local\vcpkg\registries\git-trees\51a85aefcfb3e578904f1cbd72a9f49ff836b928: info: installing overlay port from here
+  -- Downloading https://github.com/libsdl-org/SDL_ttf/archive/release-2.22.0.tar.gz -> libsdl-org-SDL_ttf-release-2.22.0.tar.gz...
+  -- Extracting source C:/Users/Jeremy/AppData/Local/vcpkg/downloads/libsdl-org-SDL_ttf-release-2.22.0.tar.gz
+  -- Using source at D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/blds/sdl2-ttf/src/ase-2.22.0-5f772fae59.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x64-windows
+  -- Building x64-windows-dbg
+  -- Building x64-windows-rel
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-ttf_x64-windows/lib/pkgconfig/SDL2_ttf.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.2.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.3-3-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/Users/Jeremy/AppData/Local/vcpkg/downloads/tools/msys2/1e74ca60daa10104
+  -- Fixing pkgconfig file: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-ttf_x64-windows/debug/lib/pkgconfig/SDL2_ttf.pc
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-ttf_x64-windows/share/sdl2-ttf/usage
+  -- Installing: D:/school/PlatformGame-L16_GUI_System_Solution/vcpkg_installed/x64-windows/vcpkg/pkgs/sdl2-ttf_x64-windows/share/sdl2-ttf/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 42 ms.
+  Elapsed time to handle sdl2-ttf:x64-windows: 3.4 s
+  sdl2-ttf:x64-windows package ABI: 375e42dc2f1a6a354b7e88c1235416b6a135eab5799b5714832a045defb0ae3a
+  Total install time: 1.2 min
+  box2d provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(box2d CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE box2d::box2d)
+  
+  pugixml provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(pugixml CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE pugixml::shared pugixml::pugixml)
+  
+  pugixml provides pkg-config modules:
+  
+    # Light-weight, simple and fast XML parser for C++ with XPath support.
+    pugixml
+  
+  sdl2 provides CMake targets:
+  
+      find_package(SDL2 CONFIG REQUIRED)
+      target_link_libraries(main
+          PRIVATE
+          $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
+          $<IF:$<TARGET_EXISTS:SDL2::SDL2>,SDL2::SDL2,SDL2::SDL2-static>
+      )
+  
+  sdl2-image provides CMake targets:
+  
+      find_package(SDL2_image CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:SDL2_image::SDL2_image>,SDL2_image::SDL2_image,SDL2_image::SDL2_image-static>)
+  
+  sdl2-mixer provides CMake targets:
+  
+      find_package(SDL2_mixer CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:SDL2_mixer::SDL2_mixer>,SDL2_mixer::SDL2_mixer,SDL2_mixer::SDL2_mixer-static>)
+  
+  sdl2-ttf provides CMake targets:
+  
+      find_package(SDL2_ttf CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:SDL2_ttf::SDL2_ttf>,SDL2_ttf::SDL2_ttf,SDL2_ttf::SDL2_ttf-static>)
+  
+  Audio.cpp
+  Enemy.cpp
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(30,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(31,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(62,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(62,74): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(115,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(116,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(142,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(142,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(148,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Enemy.cpp(148,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Engine.cpp
+  EntityManager.cpp
+  GuiControlButton.cpp
+  GuiManager.cpp
+  Input.cpp
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Input.cpp(145,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Input.cpp(145,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Input.cpp(150,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Input.cpp(150,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Item.cpp
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Item.cpp(26,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Item.cpp(27,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Item.cpp(52,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Item.cpp(53,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Log.cpp
+  Map.cpp
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(62,123): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(62,106): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(208,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(208,112): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(260,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(261,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(264,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(265,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(277,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(278,20): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(282,26): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(283,27): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(284,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Map.cpp(285,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Pathfinding.cpp
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(65,105): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(65,88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(67,106): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(67,84): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(81,106): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(81,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(84,86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(84,74): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(100,106): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(100,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(103,86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(103,74): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(119,106): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(119,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(122,86): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(122,74): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(130,80): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(130,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(131,104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(131,82): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(169,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(169,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(182,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(182,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(185,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(185,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(188,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(188,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(191,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(191,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(222,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(222,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(235,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(235,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(236,94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(236,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(238,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(238,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(239,93): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(239,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(241,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(241,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(242,94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(242,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(244,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(244,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(245,93): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(245,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(253,120): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(253,137): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(254,40): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(254,57): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(279,63): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(279,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(292,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(292,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(293,94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(293,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(295,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(295,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(296,93): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(296,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(298,66): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(298,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(299,94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(299,67): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(301,65): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(301,41): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(302,93): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(302,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(317,46): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(320,47): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(323,45): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(330,116): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(330,133): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(331,40): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(331,57): warning C4244: 'argument': conversion from 'float' to 'const unsigned __int64', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(365,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Pathfinding.cpp(365,37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  PerfTimer.cpp
+  Physics.cpp
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Physics.cpp(92,23): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Physics.cpp(93,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Physics.cpp(129,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Physics.cpp(130,26): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Physics.cpp(187,29): warning C4018: '<': signed/unsigned mismatch
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Physics.cpp(452,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Physics.cpp(453,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Physics.cpp(459,27): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  PlatformGame.cpp
+  Player.cpp
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(30,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(31,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(68,21): warning C4305: '=': truncation from 'double' to 'float'
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(73,20): warning C4305: '=': truncation from 'double' to 'float'
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(78,21): warning C4305: '=': truncation from 'double' to 'float'
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(83,20): warning C4305: '=': truncation from 'double' to 'float'
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(103,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(104,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(156,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Player.cpp(156,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Render.cpp
+  Scene.cpp
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(92,55): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(95,55): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(98,55): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(101,55): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(109,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(108,83): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(112,102): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(112,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(116,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(115,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(181,76): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Scene.cpp(180,97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Textures.cpp
+  Timer.cpp
+  Vector2D.cpp
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Vector2D.cpp(77,18): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\school\PlatformGame-L16_GUI_System_Solution\src\Vector2D.cpp(81,34): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Compiling...
+  Window.cpp
+  Generating Code...
+  PlatformGame.vcxproj -> D:\school\PlatformGame-L16_GUI_System_Solution\x64\Debug\PlatformGame.exe
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Audio\Fx\retro-video-game-coin-pickup-38299.ogg
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Audio\Music\music_spy.ogg
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Fonts\arial\1_19tmLBmVPfbohCvb7HgJFg.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Fonts\arial\Arial-Font.jpg
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Fonts\arial\arial.ttf
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Fonts\arial\Arial_font_2021-11-28_14-10-13.jpg
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Maps\iso.tmx
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Maps\isometric_grass_and_water.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Maps\lvl1_map.tmx
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Maps\MapMetadata.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Maps\MapTemplate.tmx
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Maps\tilemap_pico_8.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Maps\tileSelection.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Maps\tmw_desert_spacing.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Maps\x.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Textures\goldCoin.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Textures\isometric.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Textures\player1.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Textures\test.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Textures\enemy\Idle.png
+  D:\school\PlatformGame-L16_GUI_System_Solution\Assets\Textures\player\Idle.png
+  复制了 21 个文件
