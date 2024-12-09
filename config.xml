@@ -8,7 +8,7 @@
 		<vsync value="false" />
 	</render>
 	<window>
-		<resolution width="1280" height="720" scale="4" />
+		<resolution width="720" height="448" scale="4" />
 		<fullscreen value="false" />
 		<borderless value="false" />
 		<resizable value="false" />
@@ -17,7 +17,7 @@
 	<scene>
 		<map path="Assets/Maps/" name="lvl1_map.tmx" />
 		<entities>
-			<player x="0" y="73" w="8" h="8" texture="Assets/Maps/tilemap_pico_8.png" gravity="true">
+			<player x="0" y="73" w="8" h="8" texture="Assets/Textures/player/player.png" gravity="true">
 				<animations>
 					<idle loop="true" speed="0.1">
 						<frame x="0" y="64" w="8" h="8" />
