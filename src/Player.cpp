@@ -83,6 +83,8 @@ bool Player::Update(float dt)
 		velocity.y = 0.2 * 8;
 	}
 	
+	CameraFollow(dt);
+
 	//Jump
 	if (Engine::GetInstance().input.get()->GetKey(SDL_SCANCODE_SPACE) == KEY_DOWN && isJumping == false) {
 		// Apply an initial upward force
@@ -155,4 +157,13 @@ Vector2D Player::GetPosition() {
 	b2Vec2 bodyPos = pbody->body->GetTransform().p;
 	Vector2D pos = Vector2D(METERS_TO_PIXELS(bodyPos.x), METERS_TO_PIXELS(bodyPos.y));
 	return pos;
+}
+
+void Player::CameraFollow(float dt)
+{
+	Engine::GetInstance().render.get()->camera.x = Lerp(Engine::GetInstance().render.get()->camera.x, -position.getX() * 4 + 200, 0.1f);
+}
+float Player::Lerp(float a, float b, float t)
+{
+	return a + t * (b - a);
 }

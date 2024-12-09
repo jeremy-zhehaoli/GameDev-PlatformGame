@@ -34,6 +34,11 @@ public:
 
 	void SetPosition(Vector2D pos);
 
+	void CameraFollow(float dt);
+
+	float Lerp(float a, float b, float t);
+
+
 	Vector2D GetPosition();
 
 public:
