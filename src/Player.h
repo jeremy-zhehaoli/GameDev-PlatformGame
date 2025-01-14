@@ -34,6 +34,8 @@ public:
 
 	void SetPosition(Vector2D pos);
 
+	void Death();
+
 	void CameraFollow(float dt);
 
 	float Lerp(float a, float b, float t);
@@ -59,4 +61,8 @@ public:
 	pugi::xml_node parameters;
 	Animation* currentAnimation = nullptr;
 	Animation idle;
+
+	bool canCollide;
+	float collidetimer;
+	bool dead;
 };

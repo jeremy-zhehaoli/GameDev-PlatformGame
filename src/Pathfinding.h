@@ -22,6 +22,8 @@ public:
 	~Pathfinding();
 
     // L11: BFS Pathfinding methods
+	float scale = 0.5f;
+
     void ResetPath(Vector2D pos);
     void DrawPath();
     bool IsWalkable(int x, int y);

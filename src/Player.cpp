@@ -15,7 +15,7 @@ Player::Player() : Entity(EntityType::PLAYER)
 }
 
 Player::~Player() {
-
+	pbody->body->GetWorld()->DestroyBody(pbody->body);
 }
 
 bool Player::Awake() {
@@ -107,6 +107,7 @@ bool Player::Update(float dt)
 
 	Engine::GetInstance().render.get()->DrawTexture(texture, (int)position.getX(), (int)position.getY(), &currentAnimation->GetCurrentFrame());
 	currentAnimation->Update();
+
 	return true;
 }
 
@@ -128,7 +129,23 @@ void Player::OnCollision(PhysBody* physA, PhysBody* physB) {
 		Engine::GetInstance().audio.get()->PlayFx(pickCoinFxId);
 		Engine::GetInstance().physics.get()->DeletePhysBody(physB); // Deletes the body of the item from the physics world
 		break;
-	case ColliderType::UNKNOWN:
+	case ColliderType::ENEMY:
+		if (pbody->body->GetLinearVelocity().y > 0.4)
+		{
+			std::cout << "Enemy dead";
+			if (canCollide)
+			{
+				canCollide = false;
+				Engine::GetInstance().physics.get()->DeletePhysBody(physB);
+				collidetimer = 10;
+			}
+		}
+		else
+		{
+			std::cout << "Player dead";
+			dead = true;
+			Engine::GetInstance().physics.get()->DeletePhysBody(physA);
+		}
 		break;
 	}
 }
@@ -152,6 +169,28 @@ void Player::SetPosition(Vector2D pos) {
 	b2Vec2 bodyPos = b2Vec2(PIXEL_TO_METERS(pos.getX()), PIXEL_TO_METERS(pos.getY()));
 	pbody->body->SetTransform(bodyPos,0);
 }
+
+void Player::Death()
+{
+	if (collidetimer <= 0)
+	{
+		canCollide = true;
+	}
+	else
+	{
+		collidetimer--;
+	}
+	if (GetPosition().getY() > 16 * 12)
+	{
+		dead = true;
+	}
+	if (dead)
+	{
+		dead = false;
+		Engine::GetInstance().scene.get()->LoadState();
+	}
+}
+
 
 Vector2D Player::GetPosition() {
 	b2Vec2 bodyPos = pbody->body->GetTransform().p;
