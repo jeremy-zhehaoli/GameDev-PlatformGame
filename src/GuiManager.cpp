@@ -4,6 +4,10 @@
 
 #include "GuiControlButton.h"
 #include "Audio.h"
+#include "Timer.h"
+#include "SDL2/SDL.h"
+
+#include <iostream>
 
 GuiManager::GuiManager() :Module()
 {
@@ -14,6 +18,14 @@ GuiManager::~GuiManager() {}
 
 bool GuiManager::Start()
 {
+	IntroScreen = Engine::GetInstance().textures.get()->Load("Assets/Textures/UI/IntroScreen.png");
+	
+	rect = { 0, 0,2370, 1335 };
+	pBt = { 520, 350, 120,120 };
+	
+	alpha = 0;
+	fadeSpeed = 4;
+	
 	return true;
 }
 
@@ -45,7 +57,41 @@ bool GuiManager::Update(float dt)
 	{
 		control->Update(dt);
 	}
+	float cameraX = Engine::GetInstance().render.get()->camera.x;
+	float cameraY = Engine::GetInstance().render.get()->camera.y;
 
+	switch (state)
+	{
+	case GuiManager::INTRO:
+		Engine::GetInstance().render.get()->DrawTexture(IntroScreen, 2, 0, &rect, 1, 0, 0, 0, 0.18);
+		startIntroTimer = true;
+		if (startIntroTimer)
+		{
+			startIntroTimer = false;
+			introTimer += dt;
+		}
+		if (introTimer >= introTimerTime)
+		{
+			state = TITLE;
+			introTimer = 0;
+		}
+
+		break;
+	case GuiManager::TITLE:
+		break;
+	case GuiManager::PAUSE:
+		break;
+	case GuiManager::CREDIT:
+		break;
+	case GuiManager::ENDLEVEL:
+		break;
+	case GuiManager::END:
+		break;
+	case GuiManager::GAMEOVER:
+		break;
+	default:
+		break;
+	}
 	return true;
 }
 

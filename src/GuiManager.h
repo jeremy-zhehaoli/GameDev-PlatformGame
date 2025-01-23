@@ -2,6 +2,7 @@
 
 #include "Module.h"
 #include "GuiControl.h"
+#include "GuiControlButton.h"
 
 #include <list>
 
@@ -32,5 +33,33 @@ public:
 	std::list<GuiControl*> guiControlsList;
 	SDL_Texture* texture;
 
+	enum UIState
+	{
+		INTRO,
+		TITLE,
+		PAUSE,
+		CREDIT,
+		ENDLEVEL,
+		END,
+		GAMEOVER
+	};
+	UIState state = INTRO;
+
+private:
+	SDL_Texture* IntroScreen;
+	SDL_Texture* TitleScreen;
+	SDL_Texture* GameOverScreen;
+	SDL_Texture* NextLevelScreen;
+	SDL_Texture* CreditScreen;
+
+	SDL_Rect rect;
+	SDL_Rect pBt;
+
+	Uint8 alpha;
+	float fadeSpeed;
+
+	float introTimer = 0;
+	float introTimerTime = 1200;
+	bool startIntroTimer;
 };
 

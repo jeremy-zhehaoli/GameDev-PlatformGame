@@ -74,9 +74,9 @@ bool Player::Update(float dt)
 	}
 
 	// Move Up
-	if (Engine::GetInstance().input.get()->GetKey(SDL_SCANCODE_W) == KEY_REPEAT) {
-		velocity.y = -0.2 * 8;
-	}
+	//if (Engine::GetInstance().input.get()->GetKey(SDL_SCANCODE_W) == KEY_REPEAT) {
+	//	velocity.y = -0.2 * 8;
+	//}
 
 	// Move down
 	if (Engine::GetInstance().input.get()->GetKey(SDL_SCANCODE_S) == KEY_REPEAT) {

@@ -1,0 +1,8 @@
+Package: wavpack
+Version: 5.6.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: ffe8be3b707fa2a70876f451fca2c999192392bc4cdc7db1d19156cbf05e8305
+Description: WavPack encode/decode library, command-line programs, and several plugins

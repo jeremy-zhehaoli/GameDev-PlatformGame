@@ -1,0 +1,44 @@
+﻿  Engine.cpp
+  GuiManager.cpp
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\GuiManager.cpp(60,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\GuiManager.cpp(61,16): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\GuiManager.cpp(66,89): warning C4305: 'argument': truncation from 'double' to 'float'
+  Scene.cpp
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(92,55): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(95,55): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(98,55): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(101,55): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(109,38): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(108,83): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(112,102): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(112,85): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(116,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(115,32): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(181,76): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\src\Scene.cpp(180,97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  PlatformGame.vcxproj -> C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\PlatformGame.exe
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Audio\Fx\retro-video-game-coin-pickup-38299.ogg
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Audio\Music\music_spy.ogg
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Fonts\arial\1_19tmLBmVPfbohCvb7HgJFg.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Fonts\arial\Arial-Font.jpg
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Fonts\arial\arial.ttf
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Fonts\arial\Arial_font_2021-11-28_14-10-13.jpg
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Maps\iso.tmx
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Maps\isometric_grass_and_water.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Maps\lvl1_map.tmx
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Maps\MapMetadata.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Maps\MapTemplate.tmx
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Maps\tilemap_pico_8.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Maps\tileSelection.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Maps\tmw_desert_spacing.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Maps\x.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Textures\goldCoin.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Textures\isometric.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Textures\player1.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Textures\test.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Textures\enemy\Idle.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Textures\player\Idle.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Textures\player\player.png
+  C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\Assets\Textures\UI\IntroScreen.png
+  复制了 23 个文件

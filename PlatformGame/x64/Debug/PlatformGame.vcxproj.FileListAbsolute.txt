@@ -1,0 +1,16 @@
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\pugixml.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\SDL2d.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\SDL2_imaged.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\libpng16d.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\zlibd1.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\SDL2_mixerd.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\vorbisfile.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\vorbis.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\ogg.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\wavpackdll.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\SDL2_ttfd.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\freetyped.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\bz2d.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\brotlidec.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\x64\Debug\brotlicommon.dll
+C:\Users\Jeremy\OneDrive\Documents\GitHub\GameDev-PlatformGame\PlatformGame\x64\Debug\Platform.4970EBBF.Up2Date

@@ -1,0 +1,6 @@
+Package: tracy
+Feature: crash-handler
+Architecture: x64-windows
+Multi-Arch: same
+Description: Enable crash handler
+Status: install ok half-installed
